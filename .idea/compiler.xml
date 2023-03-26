@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bank-app" />
+        <module name="array-change" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ArrayOfModifications" target="1.5" />
+      <module name="bank-app" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
